@@ -31,5 +31,6 @@ if (api_return):
     print ("Hash {0}, {1} occurences".format(api_return[0], api_return[1]))
 else:
     print (sys.argv[1], "was not found")
+    print ("test")
 
 exit()
